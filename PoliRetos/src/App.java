@@ -27,29 +27,34 @@ public class App {
                 condicionSalida = true;
                 switch (reto) {
                     case 1:
+                        Utilitario.imprimirTitulo("Retos de Series");
                         System.out.println("Ingrese el reto de series que desea ejecutar (1 - 21):");
                         int numRetoSeries = lecturaDatos.nextInt();
                         GestorPkgSeries.menuRetosSeries(numRetoSeries);
                         break;
                     case 2:
+                        Utilitario.imprimirTitulo("Retos con Figuras");
                         RetosFiguras.GestorPkgFiguras gestorFiguras = new RetosFiguras.GestorPkgFiguras();
                         System.out.println("Ingrese el reto de figuras que desea ejecutar (1 - 19):");
                         int numRetoFiguras = lecturaDatos.nextInt();
                         gestorFiguras.menuRetosFiguras(numRetoFiguras);
                         break;
                     case 3:
+                        Utilitario.imprimirTitulo("Retos de Cadenas y Arrays");
                         RetosCadenas.GestorPkgCadenas gestorCadenasArrays = new RetosCadenas.GestorPkgCadenas();
                         System.out.println("Ingrese el reto de cadenas y arrays que desea ejecutar (1 - 14):");
                         int numRetoCadenasArrays = lecturaDatos.nextInt();
                         gestorCadenasArrays.menuRetosCadenasYArrays(numRetoCadenasArrays);
                         break;
                     case 4:
+                        Utilitario.imprimirTitulo("Retos Loading");
                         RetosLoading.GestorPkgLoading gestorLoading = new RetosLoading.GestorPkgLoading();
                         System.out.println("Ingrese el reto de loading que desea ejecutar (1 - 12):");
                         int numRetoLoading = lecturaDatos.nextInt();
                         gestorLoading.menuRetosLoading(numRetoLoading);
                         break;
                     case 5:
+                        Utilitario.imprimirTitulo("Retos de Recursividad");
                         RetosRecursividad.GestorPkgRecurs gestorRecursividad = new RetosRecursividad.GestorPkgRecurs();
                         System.out.println("Ingrese el reto de recursividad que desea ejecutar (1 - 6):");
                         int numRetoRecursividad = lecturaDatos.nextInt();
