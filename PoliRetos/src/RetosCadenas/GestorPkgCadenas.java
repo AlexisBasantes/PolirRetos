@@ -1,12 +1,12 @@
-package RetosSeries;
+package RetosCadenas;
 
-public class menuRetosSeries {
+public class GestorPkgCadenas {
 
-    public void menuRetosSeries(int numReto) {
-        switch (numReto) {
-            
+    public void menuRetosCadenas(int numRetoCadenasArrays) {
+        switch (numRetoCadenasArrays) {
+            case 1:
+                break;
             case 2:
-
                 break;
             case 3:
                 break;          
@@ -15,7 +15,6 @@ public class menuRetosSeries {
             case 5:
                 break;
             case 6:
-            SerieCuadradosPerfectos.akMostrarCuadradosPerfectos(10);
                 break;
             case 7:         
                 break;
@@ -27,28 +26,12 @@ public class menuRetosSeries {
                 break;  
             case 11:
                 break;  
-            case 12: 
-            SeriesS12.akMostrarSerieS12(10);   
+            case 12:
                 break;
             case 13:    
                 break;
             case 14:    
                 break;
-            case 15:    
-                break;
-            case 16:    
-                break;
-            case 17:    
-                break;
-            case 18:    
-                break;
-            case 19:    
-                break;
-            case 20:    
-                break;
-            case 21:    
-                break;
-        
             default:
                 System.out.println("Reto no encontrado");
                 break;
