@@ -1,4 +1,4 @@
-package RetosSeries;
+package RetosSeries.Retos;
 
 public class SeriesNumericas01 {
    public SeriesNumericas01() {

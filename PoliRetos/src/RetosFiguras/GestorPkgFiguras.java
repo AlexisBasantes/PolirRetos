@@ -1,8 +1,8 @@
 package RetosFiguras;
 
-import RetosSeries.SerieCuadradosPerfectos;
-import RetosSeries.SerieNumerica02;
-import RetosSeries.SerieS5;
+import RetosSeries.Retos.SerieCuadradosPerfectos;
+import RetosSeries.Retos.SerieNumerica02;
+import RetosSeries.Retos.SerieS5;
 
 public class GestorPkgFiguras {
 

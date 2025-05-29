@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import RetosSeries.GestorPkgSeries;
+
 public class App {
     public static void main(String[] args) throws Exception {
     Scanner lecturaDatos = new Scanner(System.in);
@@ -22,11 +24,10 @@ public class App {
                 condicionSalida = true;
                 switch (reto) {
                     case 1:
-    RetosSeries.GestorPkgSeries gestorSeries = new RetosSeries.GestorPkgSeries();
-    System.out.println("Ingrese el reto de series que desea ejecutar:");
-    int numRetoSeries = lecturaDatos.nextInt();
-    gestorSeries.menuRetosSeries(numRetoSeries);
-    break;
+                        System.out.println("Ingrese el reto de series que desea ejecutar:");
+                        char numReto = (char) lecturaDatos.nextInt();
+                        GestorPkgSeries.menuRetosSeries(numReto);
+                        break;
                     case 2:
                         RetosFiguras.GestorPkgFiguras gestorFiguras = new RetosFiguras.GestorPkgFiguras();
                         System.out.println("Ingrese el reto de figuras que desea ejecutar:");
