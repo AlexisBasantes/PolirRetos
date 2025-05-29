@@ -9,23 +9,27 @@ public class GestorPkgLoading {
             case 2:
                 break;
             case 3:
-                break;          
+                break;
             case 4:
                 break;
             case 5:
+                System.out.println("Reto 5: Barra de progreso animada");
+                abLoading.retoBarraProgresoAnimada();
                 break;
             case 6:
                 break;
-            case 7:         
+            case 7:
                 break;
             case 8:
-                break;  
+                break;
             case 9:
-                break;          
+                break;
             case 10:
-                break;  
+                System.out.println("Reto 10: Escalones animados");
+                abLoading.retoSpinner();
+                break;
             case 11:
-                break;  
+                break;
             case 12:
                 break;
             default:

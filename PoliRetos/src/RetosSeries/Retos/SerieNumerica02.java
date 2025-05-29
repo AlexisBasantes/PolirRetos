@@ -10,5 +10,5 @@ public class SerieNumerica02 {
         System.out.println();
     }
 
-   
+
 }

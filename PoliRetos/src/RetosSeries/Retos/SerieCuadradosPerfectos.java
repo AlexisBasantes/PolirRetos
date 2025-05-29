@@ -1,6 +1,5 @@
 package RetosSeries;
 
-
 public class SerieCuadradosPerfectos {
     public static void akMostrarCuadradosPerfectos(int akCantidad) {
         System.out.print("S6: ");
@@ -9,4 +8,6 @@ public class SerieCuadradosPerfectos {
         }
         System.out.println("....");
     }
+
+
 }

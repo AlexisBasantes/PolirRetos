@@ -1,9 +1,5 @@
 package RetosFiguras;
 
-import RetosSeries.SerieCuadradosPerfectos;
-import RetosSeries.SerieNumerica02;
-import RetosSeries.SerieS5;
-
 public class GestorPkgFiguras {
 
     public void menuRetosFiguras(int numRetoFiguras) {
@@ -13,38 +9,46 @@ public class GestorPkgFiguras {
             case 2:
                 break;
             case 3:
-                break;          
+                System.out.println("Reto 3: Escalera de asteriscos");
+                abFiguras.retoEscaleraAsteriscos();
+                break;
             case 4:
                 break;
             case 5:
                 break;
             case 6:
                 break;
-            case 7:         
+            case 7:
                 break;
             case 8:
-                break;  
+                System.out.println("Reto 8: Escalera hacia la izquierda");
+                abFiguras.retoEscaleraIzquierda();
+                break;
             case 9:
-                break;          
+                break;
             case 10:
-                break;  
+                break;
             case 11:
-                break;  
+                break;
             case 12:
                 break;
-            case 13:    
+            case 13:
+                System.out.println("Reto 13: Escalera de números");
+                abFiguras.retoEscaleraNumeros();
                 break;
-            case 14:    
+            case 14:
                 break;
-            case 15:    
+            case 15:
                 break;
-            case 16:    
+            case 16:
                 break;
-            case 17:    
+            case 17:
                 break;
-            case 18:    
+            case 18:
+                System.out.println("Reto 18: Escalera personalizada");
+                abFiguras.retoEscaleraFinal();
                 break;
-            case 19:    
+            case 19:
                 break;
             default:
                 System.out.println("Reto no encontrado");

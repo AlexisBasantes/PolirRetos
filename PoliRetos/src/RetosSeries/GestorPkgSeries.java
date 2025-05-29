@@ -13,7 +13,7 @@ public class GestorPkgSeries {
         Scanner lecturaDatos = new Scanner(System.in);
         switch (numReto) {
             case 1:
-                
+
                 break;
             case 2:
                 SerieNumerica02.edSerieNumerica(5); ;
@@ -22,8 +22,10 @@ public class GestorPkgSeries {
                 System.out.println("Reto 3: Secuencia numérica");
                 System.out.println("Ingrese el número de términos de la secuencia:");
                 abRetos.secuenciaNumericaYFibonacci(lecturaDatos.nextInt());
-                break;          
+                break;
             case 4:
+                System.out.println("Reto 4: Secuencia de Fibonacci");
+                abRetos.retoseriesFibonacci();
                 break;
             case 5:
                 SerieS5.akMostrarSerieS5(15);
@@ -31,41 +33,47 @@ public class GestorPkgSeries {
             case 6:
                 SerieCuadradosPerfectos.akMostrarCuadradosPerfectos(10);
                 break;
-            case 7: 
-                SerieNumerica02.edSerieNumerica(10);        
+            case 7:
+                SerieNumerica02.edSerieNumerica(10);
                 break;
             case 8:
                 System.out.println("Reto 8: Aumento +5 en la serie");
                 System.out.println("Ingrese el número de términos de la serie:");
                 abRetos.secuenciaMasCinco(lecturaDatos.nextInt());
-                break;  
+                break;
             case 9:
-                break;          
+                System.out.println("Reto 9: Potencias de 2");
+                abRetos.retoPotenciasDeDos();
+                break;
             case 10:
-                break;  
+                break;
             case 11:
-                break;  
-            case 12:   
                 break;
-            case 13:    
+            case 12:
                 break;
-            case 14:    
+            case 13:
                 break;
-            case 15:    
+            case 14:
+                System.out.println("Reto 14: Símbolos incrementales");
+                abRetos.retoSimbolosIncrementales();
                 break;
-            case 16:    
+            case 15:
                 break;
-            case 17:    
+            case 16:
                 break;
-            case 18:    
+            case 17:
                 break;
-            case 19:    
+            case 18:
                 break;
-            case 20:    
+            case 19:
+                System.out.println("Reto 19: Letras incrementales");
+                abRetos.retoLetrasIncrementales();
                 break;
-            case 21:    
+            case 20:
                 break;
-        
+            case 21:
+                break;
+
             default:
                 System.out.println("Reto no encontrado");
                 break;
