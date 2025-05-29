@@ -2,7 +2,7 @@ package RetosCadenas;
 
 public class GestorPkgCadenas {
 
-    public void menuRetosCadenas(int numRetoCadenasArrays) {
+    public void menuRetosCadenasYArrays(int numRetoCadenasArrays) {
         switch (numRetoCadenasArrays) {
             case 1:
                 break;

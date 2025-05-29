@@ -1,4 +1,4 @@
-package RetosFiguras;
+package RetosFiguras.RetosF;
 
 public class Figura15{
     public String akFiguraF15(int akFilas) {
