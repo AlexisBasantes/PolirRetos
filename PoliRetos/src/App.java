@@ -22,11 +22,11 @@ public class App {
                 condicionSalida = true;
                 switch (reto) {
                     case 1:
-                        RetosSeries.GestorPkgSeries gestorSeries = new RetosSeries.GestorPkgSeries();
-                        System.out.println("Ingrese el reto de series que desea ejecutar:");
-                        int numReto = lecturaDatos.nextInt();
-                        gestorSeries.menuRetosSeries(numReto);
-                        break;
+    RetosSeries.GestorPkgSeries gestorSeries = new RetosSeries.GestorPkgSeries();
+    System.out.println("Ingrese el reto de series que desea ejecutar:");
+    int numRetoSeries = lecturaDatos.nextInt();
+    gestorSeries.menuRetosSeries(numRetoSeries);
+    break;
                     case 2:
                         RetosFiguras.GestorPkgFiguras gestorFiguras = new RetosFiguras.GestorPkgFiguras();
                         System.out.println("Ingrese el reto de figuras que desea ejecutar:");
