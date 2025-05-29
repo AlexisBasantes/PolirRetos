@@ -1,4 +1,4 @@
-package RetosLoading;
+package RetosLoading
 
 public class GestorPkgLoading {
 

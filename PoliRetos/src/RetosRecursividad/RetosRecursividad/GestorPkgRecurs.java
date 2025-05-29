@@ -1,4 +1,4 @@
-package RetosRecursividad;
+package RetosRecursividad
 
 public class GestorPkgRecurs {
 
