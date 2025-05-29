@@ -18,6 +18,7 @@ public class GestorPkgSeries {
             case 5:
                 break;
             case 6:
+            SerieCuadradosPerfectos.akMostrarCuadradosPerfectos(10);
                 break;
             case 7:         
                 break;
