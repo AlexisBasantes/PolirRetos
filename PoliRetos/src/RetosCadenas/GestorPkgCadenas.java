@@ -33,6 +33,7 @@ public class GestorPkgCadenas {
             case 13:
                 break;
             case 14:
+            RetosCadenas.abCadenas.retoMatrizCuadrada();
                 break;
             default:
                 System.out.println("Reto no encontrado");
