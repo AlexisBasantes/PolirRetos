@@ -1,4 +1,5 @@
 package RetosCadenas;
+import RetosCadenas.RetosC.abCadenas;
 import RetosCadenas.RetosC.baRetosCadenas;
 import RetosCadenas.RetosC.eaRetosCadenas;
 public class GestorPkgCadenas {
@@ -40,6 +41,7 @@ public class GestorPkgCadenas {
                 baRetosCadenas.XApellidoYNombre();
                 break;
             case 14:
+                abCadenas.retoMatrizCuadrada();
                 break;
             default:
                 System.out.println("Reto no encontrado");

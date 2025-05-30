@@ -11,26 +11,29 @@ public class GestorPkgLoading {
                 break;
             case 3:
                 eaRetosLoad.eaSimularCarga();
-                break;          
+                break;
             case 4:
                 baRetosLoading.movimientoCarga();
                 break;
             case 5:
+                RetosLoading.abLoading.retoLoading();
+
                 break;
             case 6:
                 break;
-            case 7:         
+            case 7:
                 break;
             case 8:
                 eaRetosLoad.eaSimularCargaNombre();
                 break;  
             case 9:
                 baRetosLoading.cargaConNombre();
-                break;          
+                break;
             case 10:
-                break;  
+                RetosLoading.abLoading.retoSpinner();
+                break;
             case 11:
-                break;  
+                break;
             case 12:
                 break;
             default:
