@@ -1,4 +1,4 @@
-package RetosRecursividad;
+package RetosRecursividad.RetosR;
 
 import java.util.Scanner;
 

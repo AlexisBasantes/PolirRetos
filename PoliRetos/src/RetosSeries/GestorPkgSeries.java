@@ -1,8 +1,7 @@
 package RetosSeries;
 
-
 import RetosSeries.RetosS.SerieCuadradosPerfectos;
-import RetosSeries.RetosS.SerieS5;
+import RetosSeries.RetosS.akRetosSeries;
 import RetosSeries.RetosS.baRetosSeries;
 import Utility.Utilitario;
 import RetosSeries.RetosS.eaSerieNumerica;
@@ -12,7 +11,8 @@ public class GestorPkgSeries {
         Utility.Utilitario.imprimirLinea();
         switch (numReto) {
             case 1:
-                
+                System.out.println("1. Serie de Fibonacci");
+                akRetosSeries.imprimirFibonacci(10);
                 break;
             case 2:
                 eaSerieNumerica.serieNumerica();
@@ -23,7 +23,7 @@ public class GestorPkgSeries {
             case 4:
                 break;
             case 5:
-                SerieS5.akMostrarSerieS5(15);
+                akRetosSeries.imprimirS5(20);
                 break;
             case 6:
                 SerieCuadradosPerfectos.akMostrarCuadradosPerfectos(10);
@@ -39,6 +39,7 @@ public class GestorPkgSeries {
             case 10:
                 break;  
             case 11:
+                akRetosSeries.imprimirS11(6);
                 break;  
             case 12:   
                 eaSerieNumerica.SerieCaracteresS1();
@@ -50,7 +51,7 @@ public class GestorPkgSeries {
                 break;
             case 15:    
                 break;
-            case 16:    
+            case 16: 
                 break;
             case 17:    
                 eaSerieNumerica.serieLetrasS6();
@@ -63,7 +64,7 @@ public class GestorPkgSeries {
             case 20:
                   
                 break;
-            case 21:    
+            case 21:  
                 break;
         
             default:

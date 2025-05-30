@@ -10,12 +10,12 @@ public class GestorPkgRecurs {
             case 2:
                 break;
             case 3:
-                RetosRecursividad.abRecursividad.retoMultiplicacionRecursiva();
+                RetosRecursividad.RetosR.abRecursividad.retoMultiplicacionRecursiva();
                 break;
             case 4:
                 break;
             case 5:
-                RetosRecursividad.abRecursividad.conteoProgresivoHasta();
+                RetosRecursividad.RetosR.abRecursividad.conteoProgresivoHasta();
                 break;
             case 6:
                 break;

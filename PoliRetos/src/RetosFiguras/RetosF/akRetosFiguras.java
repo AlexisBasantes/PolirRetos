@@ -1,7 +1,7 @@
 package RetosFiguras.RetosF;
 
 public class akRetosFiguras {
-    public String akFiguraF15(int akFilas) {
+    public static String akFiguraF15(int akFilas) {
         StringBuilder akResultado = new StringBuilder();
         for (int akI = 0; akI < akFilas; akI++) {
             int akNumero = 1;
@@ -15,7 +15,7 @@ public class akRetosFiguras {
         return akResultado.toString();
     }
 
-    public String akFiguraF5(int akFilas) {
+    public static String akFiguraF5(int akFilas) {
         StringBuilder akResultado = new StringBuilder();
         for (int akI = akFilas; akI >= 1; akI--) {
             for (int akJ = 1; akJ <= akI; akJ++) {
@@ -26,7 +26,7 @@ public class akRetosFiguras {
         return akResultado.toString();
     }
 
-    public String akFiguraF10(int akFilas) {
+    public static String akFiguraF10(int akFilas) {
         StringBuilder akResultado = new StringBuilder();
         for (int akI = 0; akI < akFilas; akI++) {
             for (int akEsp = 0; akEsp < akI; akEsp++) {

@@ -1,4 +1,4 @@
-package RetosLoading;
+package RetosLoading.RetosL;
 
 import java.util.Scanner;
 

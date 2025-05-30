@@ -1,5 +1,6 @@
 package RetosCadenas;
 import RetosCadenas.RetosC.abCadenas;
+import RetosCadenas.RetosC.akCadenas;
 import RetosCadenas.RetosC.baRetosCadenas;
 import RetosCadenas.RetosC.eaRetosCadenas;
 public class GestorPkgCadenas {
@@ -7,6 +8,7 @@ public class GestorPkgCadenas {
     public void menuRetosCadenasYArrays(int numRetoCadenasArrays) {
         switch (numRetoCadenasArrays) {
             case 1:
+                akCadenas.akContarVocales("aeiouAEIOU");
                 break;
             case 2:
                 eaRetosCadenas.contarLetrasFrase();
@@ -15,11 +17,12 @@ public class GestorPkgCadenas {
                 baRetosCadenas.eliminarVocalFrase();
                 break;
             case 4:
-                RetosCadenas.RetosC.abCadenas.retoEliminarLetra();
+                abCadenas.retoEliminarLetra();
                 break;
             case 5:
                 break;
             case 6:
+                
                 break;
             case 7:
                 eaRetosCadenas.mostrarFraseMayus();
@@ -28,7 +31,7 @@ public class GestorPkgCadenas {
                 baRetosCadenas.anagrama();
                 break;
             case 9:
-                RetosCadenas.RetosC.abCadenas.retoCambiarLetras();
+                abCadenas.retoCambiarLetras();
                 break;
             case 10:
                 break;

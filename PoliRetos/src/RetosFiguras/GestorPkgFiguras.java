@@ -2,6 +2,7 @@ package RetosFiguras;
 import RetosFiguras.RetosF.akRetosFiguras;
 import RetosFiguras.RetosF.abFiguras;
 import RetosFiguras.RetosF.baRetosFiguras;
+import RetosFiguras.RetosF.cdFiguras;
 import RetosFiguras.RetosF.eaRetosfiguras;
 public class GestorPkgFiguras {
 
@@ -18,8 +19,10 @@ public class GestorPkgFiguras {
                 abFiguras.retoEscaleraAsteriscos();
                 break;
             case 4:
+                cdFiguras.dc_crearFigura4(5);
                 break;
             case 5:
+                akRetosFiguras.akFiguraF5(5);
                 break;
             case 6:
                 eaRetosfiguras.mostrarFiguraF6();
@@ -28,11 +31,13 @@ public class GestorPkgFiguras {
                 baRetosFiguras.Escalera1();
                 break;
             case 8:
-            abFiguras.retoEscaleraIzquierda();
+                abFiguras.retoEscaleraIzquierda();
                 break;
             case 9:
+                cdFiguras.dc_crearFigura9(5);
                 break;
             case 10:
+                akRetosFiguras.akFiguraF10(5);
                 break;
             case 11:
                 eaRetosfiguras.mostrarFiguraF11();
@@ -44,8 +49,10 @@ public class GestorPkgFiguras {
                 abFiguras.retoEscaleraNumeros();
                 break;
             case 14:
+                cdFiguras.dc_crearFigura14(5);
                 break;
             case 15:
+                akRetosFiguras.akFiguraF15(4);
                 break;
             case 16:
                 eaRetosfiguras.mostrarFiguraF16();  
@@ -57,6 +64,7 @@ public class GestorPkgFiguras {
                 abFiguras.retoEscaleraFinal();
                 break;
             case 19:
+                cdFiguras.dc_crearFigura19(5);
                 break;
             default:
                 System.out.println("Reto no encontrado");

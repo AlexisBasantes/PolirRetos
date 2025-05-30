@@ -1,4 +1,5 @@
 package RetosLoading;
+import RetosLoading.RetosL.akLoading;
 import RetosLoading.RetosL.baRetosLoading;
 import RetosLoading.RetosL.eaRetosLoad;
 public class GestorPkgLoading {
@@ -8,6 +9,7 @@ public class GestorPkgLoading {
             case 1:
                 break;
             case 2:
+                akLoading.mostrarBarraCarga();
                 break;
             case 3:
                 eaRetosLoad.eaSimularCarga();
@@ -16,12 +18,13 @@ public class GestorPkgLoading {
                 baRetosLoading.movimientoCarga();
                 break;
             case 5:
-                RetosLoading.abLoading.retoLoading();
+                RetosLoading.RetosL.abLoading.retoLoading();
 
                 break;
             case 6:
                 break;
             case 7:
+                akLoading.barraRotacional(100);
                 break;
             case 8:
                 eaRetosLoad.eaSimularCargaNombre();
@@ -30,11 +33,13 @@ public class GestorPkgLoading {
                 baRetosLoading.cargaConNombre();
                 break;
             case 10:
-                RetosLoading.abLoading.retoSpinner();
+                RetosLoading.RetosL.abLoading.retoSpinner();
                 break;
             case 11:
+                akLoading.escaleraCarga();
                 break;
             case 12:
+            
                 break;
             default:
                 System.out.println("Reto no encontrado");

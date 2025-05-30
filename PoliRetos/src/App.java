@@ -9,9 +9,15 @@ public class App {
 
         System.out.println("Grupo: 1");
         System.out.println("Integrantes: \n- Amores.Karla\n- Anasi.Eduardo \n- Basantes.Alexis (ba) \n- Burgos.Ariel (ab)\n- Cadena.Steve");
+        Utility.Utilitario.imprimirLinea();
+        System.out.println("Distribucion de ejercicios:");
+        System.out.println("Amores Karla (ak): 1, 6, 11, 16, 21, 26, 31, 36, 41, 46, 51, 56, 61, 66\nAnasi Eduardo (ea): 2, 7, 12, 17, 22, 27, 32, 37, 42, 47, 52, 57, 62, 67\nBasantes Alexis (ba): 3, 8, 13, 18, 23, 28, 33, 38, 43, 48, 53, 58, 63, 68\nBurgos Ariel (ab): 4, 9, 14, 19, 24, 29, 34, 39, 44, 49, 54, 59, 64, 69\nCadena Steve: (cd): 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70");
+        Utility.Utilitario.imprimirLinea();
+        System.out.println("Nota: el motivo de la presentacion de la distribucion de los ejercicos es por que hubo \nun integrante que no hizo incompletos sus ejercicios y fueron enviados a ultima hora.");
         boolean condicionSalida = false;
         do {
             Utility.Utilitario.imprimirLinea();
+            System.out.println("Seleccione el tipo de reto que desea ejecutar:\n");
             System.out.println("Ingrese 1 para retos de series");
             System.out.println("Ingrese 2 para retos con figuras");
             System.out.println("Ingrese 3 para retos de cadenas y Arrays"); 
