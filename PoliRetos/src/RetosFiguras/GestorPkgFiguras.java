@@ -1,9 +1,7 @@
 package RetosFiguras;
 
+import RetosFiguras.RetosF.abFiguras;
 import RetosFiguras.RetosF.abRetosFiguras;
-import RetosSeries.RetosS.SerieCuadradosPerfectos;
-import RetosSeries.RetosS.SerieS5;
-import Utility.Utilitario;
 
 public class GestorPkgFiguras {
 
@@ -16,40 +14,44 @@ public class GestorPkgFiguras {
                 abRetosFiguras.CuadradoIntercalado();
                 break;
             case 3:
-                break;          
+                abFiguras.retoEscaleraAsteriscos();
+                break;
             case 4:
                 break;
             case 5:
                 break;
             case 6:
                 break;
-            case 7:  
-                abRetosFiguras.Escalera1();       
+            case 7:
+                abRetosFiguras.Escalera1();
                 break;
             case 8:
-                break;  
+            abFiguras.retoEscaleraIzquierda();
+                break;
             case 9:
-                break;          
+                break;
             case 10:
-                break;  
+                break;
             case 11:
-                break;  
+                break;
             case 12:
                 abRetosFiguras.EscaleraNumInvertida();
                 break;
-            case 13:    
+            case 13:
+            abFiguras.retoEscaleraNumeros();
                 break;
-            case 14:    
+            case 14:
                 break;
-            case 15:    
+            case 15:
                 break;
-            case 16:    
+            case 16:
                 break;
-            case 17:    
+            case 17:
                 break;
-            case 18:    
+            case 18:
+            abFiguras.retoEscaleraFinal();
                 break;
-            case 19:    
+            case 19:
                 break;
             default:
                 System.out.println("Reto no encontrado");

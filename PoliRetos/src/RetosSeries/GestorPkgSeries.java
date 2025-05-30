@@ -4,7 +4,6 @@ package RetosSeries;
 import RetosSeries.RetosS.SerieCuadradosPerfectos;
 import RetosSeries.RetosS.SerieS5;
 import RetosSeries.RetosS.abRetosSeries;
-import Utility.Utilitario;
 import RetosSeries.RetosS.eaSerieNumerica;
 public class GestorPkgSeries {
 
@@ -12,15 +11,16 @@ public class GestorPkgSeries {
         Utility.Utilitario.imprimirLinea();
         switch (numReto) {
             case 1:
-                
+
                 break;
             case 2:
                 eaSerieNumerica.serieNumerica();
                 break;
             case 3:
-                abRetosSeries.secuenciaNumericaYFibonacci();  
-                break;          
+                abRetosSeries.secuenciaNumericaYFibonacci();
+                break;
             case 4:
+            abRetosSeries.retoseriesFibonacci();
                 break;
             case 5:
                 SerieS5.akMostrarSerieS5(15);
@@ -28,43 +28,46 @@ public class GestorPkgSeries {
             case 6:
                 SerieCuadradosPerfectos.akMostrarCuadradosPerfectos(10);
                 break;
-            case 7: 
+            case 7:
                 eaSerieNumerica.serieS7();
                 break;
             case 8:
                 abRetosSeries.secuenciaMasCinco();
-                break;  
-            case 9:
-                break;          
-            case 10:
-                break;  
-            case 11:
-                break;  
-            case 12:   
-                eaSerieNumerica.serieCaracteresS1();
                 break;
-            case 13: 
+            case 9:
+            abRetosSeries.retoPotenciasDeDos();
+                break;
+            case 10:
+                break;
+            case 11:
+                break;
+            case 12:
+                eaSerieNumerica.SerieCaracteresS1();
+                break;
+            case 13:
                 abRetosSeries.secuenciaCaracteres2();
                 break;
-            case 14:    
+            case 14:
+            abRetosSeries.retoSimbolosIncrementales();
                 break;
-            case 15:    
+            case 15:
                 break;
-            case 16:    
+            case 16:
                 break;
-            case 17:    
+            case 17:
                 break;
-            case 18:  
-                abRetosSeries.secuenciaCaracteres7();  
+            case 18:
+                abRetosSeries.secuenciaCaracteres7();
                 break;
-            case 19:    
+            case 19:
+            abRetosSeries.retoLetrasIncrementales();
                 break;
             case 20:
-                  
+
                 break;
-            case 21:    
+            case 21:
                 break;
-        
+
             default:
                 System.out.println("Reto no encontrado");
                 break;
