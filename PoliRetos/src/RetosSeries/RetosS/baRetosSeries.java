@@ -2,7 +2,7 @@ package RetosSeries.RetosS;
 
 import java.util.Scanner;
 
-public class abRetosSeries {
+public class baRetosSeries {
 
     static Scanner lecturaDatos = new Scanner(System.in);
 

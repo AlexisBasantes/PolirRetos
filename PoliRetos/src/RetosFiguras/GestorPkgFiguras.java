@@ -1,17 +1,18 @@
 package RetosFiguras;
-
+import RetosFiguras.RetosF.akRetosFiguras;
 import RetosFiguras.RetosF.abFiguras;
-import RetosFiguras.RetosF.abRetosFiguras;
-
+import RetosFiguras.RetosF.baRetosFiguras;
+import RetosFiguras.RetosF.eaRetosfiguras;
 public class GestorPkgFiguras {
 
     public void menuRetosFiguras(int numRetoFiguras) {
         Utility.Utilitario.imprimirLinea();
         switch (numRetoFiguras) {
             case 1:
+                eaRetosfiguras.mostrarFiguraF1();
                 break;
             case 2:
-                abRetosFiguras.CuadradoIntercalado();
+                baRetosFiguras.CuadradoIntercalado();
                 break;
             case 3:
                 abFiguras.retoEscaleraAsteriscos();
@@ -21,9 +22,10 @@ public class GestorPkgFiguras {
             case 5:
                 break;
             case 6:
+                eaRetosfiguras.mostrarFiguraF6();
                 break;
             case 7:
-                abRetosFiguras.Escalera1();
+                baRetosFiguras.Escalera1();
                 break;
             case 8:
             abFiguras.retoEscaleraIzquierda();
@@ -33,23 +35,26 @@ public class GestorPkgFiguras {
             case 10:
                 break;
             case 11:
+                eaRetosfiguras.mostrarFiguraF11();
                 break;
             case 12:
-                abRetosFiguras.EscaleraNumInvertida();
+                baRetosFiguras.EscaleraNumInvertida();
                 break;
             case 13:
-            abFiguras.retoEscaleraNumeros();
+                abFiguras.retoEscaleraNumeros();
                 break;
             case 14:
                 break;
             case 15:
                 break;
             case 16:
+                eaRetosfiguras.mostrarFiguraF16();  
                 break;
             case 17:
+                baRetosFiguras.adnNumeros();
                 break;
             case 18:
-            abFiguras.retoEscaleraFinal();
+                abFiguras.retoEscaleraFinal();
                 break;
             case 19:
                 break;
@@ -58,5 +63,5 @@ public class GestorPkgFiguras {
                 break;
         }
     }
-
 }
+

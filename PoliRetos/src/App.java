@@ -8,7 +8,7 @@ public class App {
     Scanner lecturaDatos = new Scanner(System.in);
 
         System.out.println("Grupo: 1");
-        System.out.println("Integrantes: \n- Amores.Karla\n- Anasi.Eduardo \n- Basantes.Alexis \n- Burgos.Ariel\n- Cadena.Steve");
+        System.out.println("Integrantes: \n- Amores.Karla\n- Anasi.Eduardo \n- Basantes.Alexis (ba) \n- Burgos.Ariel (ab)\n- Cadena.Steve");
         boolean condicionSalida = false;
         do {
             Utility.Utilitario.imprimirLinea();

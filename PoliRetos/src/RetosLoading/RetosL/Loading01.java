@@ -1,4 +1,4 @@
-package RetosLoading;
+package RetosLoading.RetosL;
 
 public class Loading01 {
     public void akIndicadorCarga() throws InterruptedException {

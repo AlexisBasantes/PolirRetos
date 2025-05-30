@@ -2,7 +2,7 @@ package RetosFiguras.RetosF;
 
 import java.util.Scanner;
 
-public class abRetosFiguras {
+public class baRetosFiguras {
 
     static Scanner lecturaDatos = new Scanner(System.in);
         
@@ -46,12 +46,38 @@ public class abRetosFiguras {
         int numEscalones = lecturaDatos.nextInt();
 
         int aux = numEscalones;
-        for (int filas = 1; filas < numEscalones; filas++){
-            for (int columnas = 1; columnas < aux; columnas++){
-                System.out.println(columnas);
-                aux--;
+        for (int i = numEscalones; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j);
             }
+            System.out.println();
         }
     }
 
+    public static void adnNumeros() {
+        System.out.println("Reto 17: ADN con Números 0 y 1");
+        System.out.println("Ingrese la longitud del ADN (filas):");
+        int longFila = lecturaDatos.nextInt();
+
+        for (int i = 0; i < longFila; i++) {
+            for (int j = 0; j < longFila; j++) {
+                // Fila 1 y 5: imprimir 1 en extremos
+                if ((i == 0 || i == 4) && (j == 0 || j == 4)) {
+                    System.out.print("1");
+                }
+                // Fila 2 y 4: imprimir 0 en 2 y 4
+                else if ((i == 1 || i == 3) && (j == 1 || j == 3)) {
+                    System.out.print("0");
+                }
+                // Fila 3: imprimir 1 en el centro
+                else if (i == 2 && j == 2) {
+                    System.out.print("1");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
 }

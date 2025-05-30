@@ -1,10 +1,11 @@
 package RetosRecursividad;
-
+import RetosRecursividad.RetosR.eaRecursividad; 
 public class GestorPkgRecurs {
 
     public void menuRetosRecursividad(int numRetoRecursividad) {
         switch (numRetoRecursividad) {
             case 1:
+                eaRecursividad.main(null);
                 break;
             case 2:
                 break;

@@ -19,7 +19,7 @@ public class eaSerieNumerica {
 
 
  public static void serieS7() {
-        System.out.println("Reto 7: Secuencia S7 - progresión aritmética de diferencia 3");
+        System.out.println("Reto 7: progresión aritmética de diferencia 3");
         System.out.print("Ingrese el número de términos para la serie S7: ");
         int numTerminos = sc.nextInt();
 
@@ -34,7 +34,7 @@ public class eaSerieNumerica {
    
 
 public static void SerieCaracteresS1() {
-        System.out.println("Reto 1: Secuencia S1 - alternancia de signos + - + - ...");
+        System.out.println("Reto 12: alternancia de signos + - + - ...");
         System.out.print("Ingrese el número de términos para la serie S1: ");
         int numTerminos = sc.nextInt();
 
@@ -44,6 +44,18 @@ public static void SerieCaracteresS1() {
             } else {
                 System.out.print("- ");
             }
+        }
+        System.out.println();
+    }
+
+public static void serieLetrasS6() {
+        System.out.println("Reto 17: letras consecutivas del alfabeto a b c d ...");
+        System.out.print("Ingrese el número de términos para la serie S6: ");
+        int numTerminos = sc.nextInt();
+
+        for (int i = 0; i < numTerminos; i++) {
+            char letra = (char) ('a' + i);
+            System.out.print(letra + " ");
         }
         System.out.println();
     }

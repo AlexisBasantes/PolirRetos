@@ -1,4 +1,4 @@
-package RetosCadenas;
+package RetosCadenas.RetosC;
 
 import java.util.Scanner;
 

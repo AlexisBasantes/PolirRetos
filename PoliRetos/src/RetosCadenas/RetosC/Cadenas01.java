@@ -1,4 +1,4 @@
-package RetosCadenas;
+package RetosCadenas.RetosC;
 
 public class Cadenas01 {
     public int akContarVocales(String akFrase) {
@@ -11,5 +11,5 @@ public class Cadenas01 {
             }
         }
         return akContador;
-    }
+    }
 }

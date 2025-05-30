@@ -1,7 +1,8 @@
-package RetosCadenas;
+package RetosCadenas.RetosC;
 
-public class CadenasC06 {
+public class RetosArrays01 {
 
+   
     public int akContarVocales(String akFrase) {
         int akContador = 0;
         String akVocales = "aeiouAEIOU";
